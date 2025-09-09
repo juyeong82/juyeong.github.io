@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Code Result</title>
+<style>
+  /* 간단한 스타일링 */
+  body { font-family: sans-serif; }
+  pre { background-color: #f4f4f4; border: 1px solid #ddd; padding: 10px; border-radius: 5px; white-space: pre-wrap; word-wrap: break-word; }
+</style>
+</head>
+<body>
+
+<h3>Python Code</h3>
+<pre><code>
+# 여기에 코드를 붙여넣으세요.
+# torchvision.models.detection에 포함된 사전 학습된 객체 검출 모델 목록을 출력
+dir(models.detection)
+for i in range(20):
+    print(f"Line number {i+1}")
+</code></pre>
+
+<h3>Execution Result</h3>
+<pre><code>
+# 여기에 긴 실행 결과를 붙여넣으세요.
+['FCOS',
+ 'FCOS_ResNet50_FPN_Weights',
+ 'FasterRCNN',
+ 'FasterRCNN_MobileNet_V3_Large_320_FPN_Weights',
+ 'FasterRCNN_MobileNet_V3_Large_FPN_Weights',
+ 'FasterRCNN_ResNet50_FPN_V2_Weights',
+ 'FasterRCNN_ResNet50_FPN_Weights',
+ 'KeypointRCNN',
+ 'KeypointRCNN_ResNet50_FPN_Weights',
+ 'MaskRCNN',
+ 'MaskRCNN_ResNet50_FPN_V2_Weights',
+ 'MaskRCNN_ResNet50_FPN_Weights',
+ 'RetinaNet',
+ 'RetinaNet_ResNet50_FPN_V2_Weights',
+ 'RetinaNet_ResNet50_FPN_Weights',
+ 'SSD300_VGG16_Weights',
+ 'SSDLite320_MobileNet_V3_Large_Weights',
+ '__builtins__',
+ '__cached__',
+ '__doc__',
+ '__file__',
+ '__loader__',
+ '__name__',
+ '__package__',
+ '__path__',
+ '__spec__',
+ '_utils',
+ 'anchor_utils',
+ 'backbone_utils',
+ 'faster_rcnn',
+ 'fasterrcnn_mobilenet_v3_large_320_fpn',
+ 'fasterrcnn_mobilenet_v3_large_fpn',
+ 'fasterrcnn_resnet50_fpn',
+ 'fasterrcnn_resnet50_fpn_v2',
+ 'fcos',
+ 'fcos_resnet50_fpn',
+ 'generalized_rcnn',
+ 'image_list',
+ 'keypoint_rcnn',
+ 'keypointrcnn_resnet50_fpn',
+ 'mask_rcnn',
+ 'maskrcnn_resnet50_fpn',
+ 'maskrcnn_resnet50_fpn_v2',
+ 'retinanet',
+ 'retinanet_resnet50_fpn',
+ 'retinanet_resnet50_fpn_v2',
+ 'roi_heads',
+ 'rpn',
+ 'ssd',
+ 'ssd300_vgg16',
+ 'ssdlite',
+ 'ssdlite320_mobilenet_v3_large',
+ 'transform']
+Line number 1
+Line number 2
+... (중략) ...
+Line number 20
+</code></pre>
+
+</body>
+</html>
